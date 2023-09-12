@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<!--Base Link-->
+<link name="base_link">
+    <visual>
+        <origin xyz="0 0 0.025" rpy="0 0 0"/>
+        <geometry>
+            <cylinder radius="0.15" length = "0.1"/>
+        </geometry>
+        <material name="white"/>
+    </visual>
+
+    <collision> 
+         <origin xyz="0 0 0.025" rpy="0 0 0"/>
+        <geometry>
+            <cylinder radius="0.15" length = "0.1"/>
+        </geometry>
+    </collision>
+
+    <xacro:inertial_cylinder mass="0.5" radius="0.15" length="0.1">
+        <origin xyz="0 0 0.025" rpy="0 0 0"/>
+    </xacro:inertial_cylinder>
+
+</link>
+
+</robot>

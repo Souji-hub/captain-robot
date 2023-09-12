@@ -1,0 +1,4 @@
+source;share/captain-robot/local_setup.bash
+source;share/captain-robot/local_setup.dsv
+source;share/captain-robot/local_setup.sh
+source;share/captain-robot/local_setup.zsh

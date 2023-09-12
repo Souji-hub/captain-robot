@@ -1,0 +1,2 @@
+source;share/captain-robot/environment/ament_prefix_path.sh
+source;share/captain-robot/environment/path.sh
