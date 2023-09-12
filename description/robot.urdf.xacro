@@ -7,4 +7,8 @@
     <xacro:include filename="colors.xacro" />
     <xacro:include filename="sensors.xacro" />
     
+    <!--Gazebo-->
+    <xacro:include filename="/home/ran/robot_ws/src/captain-robot/description/gazebo/gazebo_colors.xacro" />
+        <xacro:include filename="/home/ran/robot_ws/src/captain-robot/description/gazebo/gazebo_control.xacro" />
+    
 </robot>
