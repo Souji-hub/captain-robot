@@ -37,6 +37,7 @@ def generate_launch_description():
         executable="rviz2",
         output="screen",
         namespace="robot_rviz",
+        arguments=["-d", "/home/ran/robot_ws/src/captain-robot/config/robot.rviz"]
     )
 
     # Launch!

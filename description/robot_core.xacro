@@ -4,6 +4,16 @@
 <!--Base Link-->
 <link name = 'base_link'></link>
 
+<!--Base Footprint-->
+<link name = 'base_footprint'></link>
+
+<joint name="footprint_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+<!--Chassis-->
 <link name="chassis">
     <visual>
         <origin xyz="0 0 0.025" rpy="0 0 0"/>
